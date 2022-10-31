@@ -1,0 +1,14 @@
+name: Wuxiastats
+version: '${project.version}'
+main: me.dev.zennyel.Stats
+authors: [ zennyel ]
+description: simple stats plugin for wuxiacraft
+website: github.com/imzerow
+commands:
+  stats:
+    description: open the stats gui
+    aliases: [status, stat]
+    permission: wuxia.status
+  setstats:
+    description: set players stats
+    permission: wuxia.admin
